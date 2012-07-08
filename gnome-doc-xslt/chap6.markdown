@@ -2,11 +2,11 @@
 
 ### DocBook Chunking ###
 #### 인자 ####
-[db.chunk.chunks](#db%2Echunk%2Echunks)
+[db.chunk.chunks](#dbchunkchunks)
   
     모아야 할 공백으로 구분한 요소 이름의 목록입니다.
     
-[db.chunk.chunk_top](#db%2Echunk%2Echunk%5Ftop)
+[db.chunk.chunk_top](#dbchunkchunk%5Ftop)
 
     상위 모음을 모아두기 방법으로 출력할지에 대한 여부입니다.
 
