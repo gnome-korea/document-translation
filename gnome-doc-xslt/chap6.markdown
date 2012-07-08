@@ -4,23 +4,78 @@
 #### 인자 ####
 [db.chunk.chunks](#dbchunkchunks)
   
-    모아야 할 공백으로 구분한 요소 이름의 목록입니다.
+    모아야 할 요소들의 공백으로 구분한 이름 목록입니다.
     
-[db.chunk.chunk_top](#dbchunkchunk%5Ftop)
+[db.chunk.chunk\_top](#dbchunkchunk%5Ftop)
 
     상위 모음을 모아두기 방법으로 출력할지에 대한 여부입니다.
+
+[db.chunk.max\_depth](#dbchunkmax_depth)
+
+	모아둔 섹션의 최대 깊이입니다.
+
+[db.chunk.basename](#dbchunkbasename)
+
+	확장자를 제외한 출력 파일의 기본 파일이름입니다.
+
+[db.chunk.extension](#dbchunkextension)
+
+	새 출력 문서의 기본 파일 확장자입니다.
+
+[db.chunk.info\_chunk](#dbchunkinfo_chunk)
+
+	제목 페이지에 대해 모음을 만들지에 대한 여부입니다.
+
+[db.chunk.info\_filename](#dbchunkinfo_filename)
+
+	제목 페이지에 대한 기본 파일이름입니다.
+
+[db.chunk.doctype\_public](#dbchunkdoctype_public)
+
+	출력 파일에 대한 public DOCTYPE 입니다.
+
+[db.chunk.doctype\_system](#dbchunkdoctype_system)
+
+	출력 파일에 대한 system DOCTYPE 입니다.
 
 #### 모드 ####
 #### 템플릿 ####
 
 #### db.chunk.chunks ####
 
-`db.chunk.chunks` - 모아야 할 공백으로 구분한 요소 이름의 목록입니다.
+`db.chunk.chunks` - 모아야 할 요소들의 공백으로 구분한 이름 목록입니다.
 
-#### db.chunk.chunk_top ####
+#### db.chunk.chunk\_top ####
 
 `db.chunk.chunk_top` - 상위 모음을 모아두기 방법으로 출력할지에 대한 여부입니다.
 
+#### db.chunk.max\_depth ####
+
+`db.chunk.max_depth` - 모아둔 섹션의 최대 깊이입니다.
+
+#### db.chunk.basename ####
+
+`db.chunk.basename` - 확장자를 제외한 출력 파일의 기본 파일이름입니다.
+
+#### db.chunk.extension ####
+
+`db.chunk.extension` - 새 출력 문서의 기본 파일 확장자입니다.
+
+#### db.chunk.info\_chunk ####
+
+`db.chunk.info_chunk` - 제목 페이지에 대해 모음을 만들지에 대한 여부입니다.
+
+#### db.chunk.info\_filename ####
+
+`db.chunk.info_filename` - 제목 페이지에 대한 기본 파일이름입니다.
+
+#### db.chunk.doctype\_public ####
+
+`db.chunk.doctype_public` - 출력 파일에 대한 public DOCTYPE 입니다.
+
+#### db.chunk.doctype\_system ####
+
+`db.chunk.doctype_system` - 출력 파일에 대한 system DOCTYPE 입니다.
 
 ### DocBook 일반 ###
 ### DocBook 레이블 ###
