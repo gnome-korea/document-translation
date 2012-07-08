@@ -1,6 +1,27 @@
 ## 스타일시트 참고서 ##
 
 ### DocBook Chunking ###
+#### 인자 ####
+[db.chunk.chunks](db.chunk.chunks)
+  
+    모아야 할 공백으로 구분한 요소 이름의 목록입니다.
+    
+[db.chunk.chunk_top](db.chunk.chunk_top)
+
+    상위 모음을 모아두기 방법으로 출력할지에 대한 여부입니다.
+
+#### 모드 ####
+#### 템플릿 ####
+
+#### db.chunk.chunks ####
+
+`db.chunk.chunks` - 모아야 할 공백으로 구분한 요소 이름의 목록입니다.
+
+#### db.chunk.chunk_top ####
+
+`db.chunk.chunk_top` - 상위 모음을 모아두기 방법으로 출력할지에 대한 여부입니다.
+
+
 ### DocBook 일반 ###
 ### DocBook 레이블 ###
 ### DocBook 제목 ###
@@ -20,7 +41,7 @@
 ### DocBook to HTML - 기능 개요 ###
 ### DocBook to HTML - 인덱스 ###
 ### DocBook to HTML - 제목 페이지 ###
-### DocBook to HTML - 안리안 요소 ###
+### DocBook to HTML - 인라인 요소 ###
 ### DocBook to HTML - 지역화 형식 지정자 ###
 ### DocBook to HTML - 목록 ###
 ### DocBook to HTML - 이미지, 미디어 ###
