@@ -9,7 +9,7 @@
 GtkClutterEmbed - 클러터 장면을 넣는 위젯입니다
 
 #### 개요 ####
- <table border="0" cellspacing="2" cellpadding"2">
+<table border="0" cellspacing="2" cellpadding"2">
 	<tr><td> struct     </td><td> GtkClutterEmbed;      </td><td> &nbsp;    </td></tr>
 	<tr><td> struct     </td><td> GtkClutterEmbedClass; </td><td> &nbsp;    </td></tr>
 	<tr><td> GtkWidget* </td><td> gtk_clutter_embed_new </td><td> (_void_); </td></tr>
@@ -17,11 +17,13 @@ GtkClutterEmbed - 클러터 장면을 넣는 위젯입니다
 </table>
 
 #### 객체 계층도 ####
-`GObject
+<pre>
+GObject
      +----GInitiallyUnowned
 	      +----GtkWidget
 		       +----GtkContainer
-			        +-----GtkClutterEmbed`
+			        +-----GtkClutterEmbed
+</pre>
 
 #### 구현한 인터페이스 ####
 GtkClutterEmbed는 AtkImplementorIface와 GtkBuildable을 구현했습니다.
@@ -42,8 +44,9 @@ GtkClutterEmbed 구조체는 private 데이터만 들어있으며 제공한 API�
 ---
 
 ##### struct GtkClutterEmbedClass #####
-`struct GtkClutterEmbedClass{
-};`
+<pre>struct GtkClutterEmbedClass{
+};
+</pre>
 
 [GtkClutterEmbed](#gtkclutterembed)의 상위클래스입니다.
 GtkClutterEmbedClass는 private 데이터만 들어있습니다.
@@ -83,10 +86,12 @@ GtkClutterActor - 클러터 스테이지에 위젯을 넣는 액터입니다
 </table>
 
 #### 객체 계층도 ####
-`GObject
+<pre>
+GObject
      +----GInitiallyUnowned
 	      +----ClutterActor
-		       +----GtkClutterActor`
+		       +----GtkClutterActor
+</pre>
 
 #### 구현한 인터페이스 ####
 GtkClutterActor는 ClutterScriptable, ClutterAnimatable, AtkInplementorIface, ClutterContainer를 구현했습니다.
@@ -109,10 +114,11 @@ GtkWidget이 들어있는 ClutterActor입니다.
 
 ---
 
-##### struct GtkClutterActorclass #####
+##### struct GtkClutterActorClass #####
 
-`struct GtkClutterActorClass{
-};`
+<pre>struct GtkClutterActorClass{
+};
+</pre>
 
 [GtkClutterActor](#gtkclutteractor)의 상위클래스입니다.
 
@@ -130,7 +136,7 @@ _반환값:_ 새로 생성한 [GtkClutterActor](#gtkclutteractor)
 
 ---
 
-##### gtk\_clutter\_actor\_new\_with\_contents (GtkWidget \*contents) #####
+##### gtk\_clutter\_actor\_new\_with\_contents () #####
 
 `ClutterActor *     gtk_clutter_actor_new_with_contents (GtkWidget *contents);`
 
@@ -201,13 +207,15 @@ GtkClutterWindow - 클러터 스테이지에 내용을 올려놓는 GtkWindow �
 </table>
 
 #### 객체 계층도 ####
-`GObject
+<pre>
+GObject
      +----GInitiallyUnowned
 	      +----GtkWidget
 		        +-----GtkContainer
 				       +----GtkBin
 					         +----GtkWindow
-							       +----GtkClutterWindow`
+							       +----GtkClutterWindow
+</pre>
 
 #### 구현한 인터페이스 ####
 GtkClutterWindow는 AtkInplementorIface와 GtkBuildable을 구현했습니다.
@@ -232,8 +240,9 @@ GtkClutterWindow 구조체는 private 데이터만 들어있으며 제공하는 
 
 ##### struct GtkClutterWindowClass #####
 
-`struct GtkClutterWindowClass{
-};`
+<pre>struct GtkClutterWindowClass{
+};
+</pre>
 
 [GtkClutterWindow](#gtkclutterwindow)의 상위클래스 입니다.
 
@@ -241,7 +250,7 @@ GtkClutterWindowClass 구조체는 private 데이터만 들어있습니다.
 
 ---
 
-##### gtk\_clutter\_window\_open () #####
+##### gtk\_clutter\_window\_new () #####
 
  
 `GtkWidget *      gtk_clutter_window_new        (void);`
