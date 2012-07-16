@@ -141,11 +141,9 @@ _반환값:_ 새로 생성한 [GtkClutterActor](#gtkclutteractor)
 <tr><td>
 ClutterActor *actor = gtk_clutter_actor_new();<br/>
 GtkWidget *bin = gtk_clutter_actor_get_widget (GTK_CLUTTER_ACTOR (actor));
+gtk_container_add (GTK_CONTAINER(bin), contents);
 </td></tr>
 </table>
-
-gtk_container_add (GTK_CONTAINER(bin), contents);
-`
 
 _contents_: ClutterActor로 감쌀 GtkWidget
 
