@@ -29,13 +29,16 @@ USA
 	<li><a href="chap4.markdown">색인</a></li>
 </ul>
 
+<dir>
 <ol type="I">
 	<li><a href="./chap5.markdown">클러터-GTK 액터와 객체</a></li>
-	<ul>
-		<li>객체 계층도</li>
-		<li>객체 색인</li>
-	</ul>
 </ol>
+<ul>
+	<ul>
+		<li><a href="./chap5.markdown#%EA%B0%9D%EC%B2%B4-%EA%B3%84%EC%B8%B5%EB%8F%84">객체 계층도</a></li>
+		<li><a href="./chap5.markdown#%EA%B0%9D%EC%B2%B4-%EC%83%89%EC%9D%B8">객체 색인</a></li>
+	</ul>
+</ul>
 <ol type="I" start="2">
 	<li><a href="./chap6.markdown">용어 해설</a></li>
 	<ul>
