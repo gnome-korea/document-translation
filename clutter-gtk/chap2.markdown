@@ -24,7 +24,7 @@ GtkClutterEmbed - 클러터 장면을 넣는 위젯입니다
 			        +-----GtkClutterEmbed`
 
 #### 구현한 인터페이스 ####
-GtkClutterEmbed는 AtkImplementorIface와 GtkBuildabl을 구현했습니다.
+GtkClutterEmbed는 AtkImplementorIface와 GtkBuildable을 구현했습니다.
 
 #### 설명 ####
 [GtkClutterEmbed](#gtkclutterembed)는 GTK+ 프로그램에 들어있는 ClutterStage를 넣는 GTK+ 위젯입니다.
