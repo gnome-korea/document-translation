@@ -14,8 +14,8 @@ USA
 ---
 
 <ul>
-	<li>[클러터-gtk 개요](./chap1.markdown)</li>
-	<li>[클러터-gtk 위젯](./chap2.markdown)</li>
+	<li><a href="chap1.markdown">클러터-gtk 개요</a></li>
+	<li><a href="chap2.markdown">클러터-gtk 위젯</a></li>
 </ul>
 <ul>
 	<ul>
@@ -25,7 +25,7 @@ USA
 	</ul>
 </ul>
 <ul>
-	<li>[기타](./chap3.markdown)</li>
+	<li><a href="chap3.markdown">기타</a></li>
 </ul>
 <ul>
 	<ul>
@@ -33,7 +33,7 @@ USA
 	</ul>
 </ul>
 <ul>
-	<li>[색인](./chap4.markdown)</li>
+	<li><a href="chap4.markdown">색인</a></li>
 </ul>
 
 I.&nbsp;&nbsp;[클러터-GTK 액터와 객체](./chap5.markdown)
