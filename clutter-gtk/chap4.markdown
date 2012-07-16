@@ -30,7 +30,7 @@ GtkClutterEmbedClass, struct GtkClutterEmbedClass
 
 GtkClutterWindow, struct GtkClutterWindow
 
-GtkClutterWindowClass, [struct GtkClutterWindowClass](./chap2.markdown#gtkclutterwindowclass)
+GtkClutterWindowClass, [struct GtkClutterWindowClass](./chap2.markdown#struct%20gtkclutterwindowclass)
 
 ### I ###
 
