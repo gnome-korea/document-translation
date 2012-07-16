@@ -250,7 +250,7 @@ GtkClutterWindowClass 구조체는 private 데이터만 들어있습니다.
 
 ---
 
-##### gtk\_clutter\_window\_open () #####
+##### gtk\_clutter\_window\_new () #####
 
  
 `GtkWidget *      gtk_clutter_window_new        (void);`
