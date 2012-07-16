@@ -15,6 +15,7 @@ GObject<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkBin
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkWindow
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GtkClutterWindow](./chap2.markdown#gtkclutterwindow)
+</pre>
 
 ### 객체 색인 ###
 
