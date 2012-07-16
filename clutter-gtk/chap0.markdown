@@ -19,9 +19,9 @@ USA
 </ul>
 <ul>
 	<ul>
-		<li>GtkClutterEmbed - 클러터 장면을 넣기 위한 위젯</li>
-		<li>GtkClutterActor - 클러터 스테이지에 위젯을 넣기 위한 액터</li>
-		<li>GtkClutterWindow - 클러터 스테이지에 내용을 올려놓는 GtkWindow</li>
+		<li>GtkClutterEmbed - 클러터 장면을 넣는 위젯입니다</li>
+		<li>GtkClutterActor - 클러터 스테이지에 위젯을 넣는 액터입니다</li>
+		<li>GtkClutterWindow - 클러터 스테이지에 내용을 올려놓는 GtkWindow입니다</li>
 	</ul>
 </ul>
 <ul>
