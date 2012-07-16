@@ -64,7 +64,7 @@ _embed_에서 ClutterStage를 가져옵니다. 반환한 스테이지는 클러�
 
 _embed_: [GtkClutterEmbed](#gtkclutterembed)
 
-_반환값_:  클러터 스테이지. 반환한 액터에 대해 할당을 해제하거나 참조를 끊을 수 없습니다. [전달 못 함]
+_반환값_:  클러터 스테이지. 반환한 액터에 대해 할당을 해제하거나 참조를 끊을 수 없습니다. [transfer none]
 
 #### 추가 참조 ####
 ClutterStage
@@ -168,7 +168,7 @@ return gtk_bin_get_child (GTK_BIN (bin));
 
 _actor_: [GtkClutterActor](#gtkclutteractor)
 
-_반환값_: GtkWidget. 내용이 없을 경우 NULL반환 [전달 못 함]
+_반환값_: GtkWidget. 내용이 없을 경우 NULL반환 [transfer none]
 
 ---
 
@@ -180,7 +180,7 @@ _반환값_: GtkWidget. 내용이 없을 경우 NULL반환 [전달 못 함]
 
 _actor_: [GtkClutterActor](#gtkclutteractor)
 
-_반환값_: GtkBin [전달 못 함]
+_반환값_: GtkBin [transfer none]
 
 #### 속성 세부 내용 ####
 ##### "contents" 속성 #####
@@ -263,4 +263,4 @@ _반환값_: 새로 만든 [GtkClutterWindow](#gtkclutterwindow)
 
 _window_: [GtkClutterWindow](#gtkclutterwindow)
 
-_반환값_: 창의 클러터 스테이지. [전달 못 함]
+_반환값_: 창의 클러터 스테이지. [transfer none]

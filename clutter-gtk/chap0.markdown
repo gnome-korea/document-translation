@@ -14,8 +14,8 @@ USA
 ---
 
 <ul>
-	<li>클러터-gtk 개요</li>
-	<li>클러터-gtk 위젯</li>
+	<li>[클러터-gtk 개요](./chap1.markdown)</li>
+	<li>[클러터-gtk 위젯](./chap2.markdown)</li>
 </ul>
 <ul>
 	<ul>
@@ -25,7 +25,7 @@ USA
 	</ul>
 </ul>
 <ul>
-	<li> 기타</li>
+	<li>[기타](./chap3.markdown)</li>
 </ul>
 <ul>
 	<ul>
@@ -33,22 +33,22 @@ USA
 	</ul>
 </ul>
 <ul>
-	<li>색인
+	<li>[색인](./chap4.markdown)</li>
 </ul>
 
-I.&nbsp;&nbsp;클러터-GTK 액터와 객체
+I.&nbsp;&nbsp;[클러터-GTK 액터와 객체](./chap5.markdown)
 <ul>
 	<li>객체 계층도</li>
 	<li>객체 색인</li>
 </ul>
-II.&nbsp;&nbsp;용어 해설
+II.&nbsp;&nbsp;[용어 해설](./chap6.markdown)
 <ul>
-	<li>용어 해설 주석</li>
+	<li>주석 용어 해설</li>
 </ul>
 
 <ul>
 	<li>모든 심볼의 색인</li>
-	<li>새로운 심볼의 색인</li>
+	<li>1.0에서 새로운 심볼의 색인</li>
 	<li>오래된 심볼의 색인</li>
 </ul>
 A.&nbsp;&nbsp;라이선스

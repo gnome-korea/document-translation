@@ -27,9 +27,9 @@ GTK+ 프로그램에 클러터 장면을 적절하게 통합하려면 각 상태
 
 이 함수는 clutter\_init()와 gtk\_init() 대신 호출해야 합니다.
 
-_argc_: 인자 카운트의 포인터 또는 NULL 입니다. [입출력] [허용 안함]
+_argc_: 인자 카운트의 포인터 또는 NULL 입니다. [inout] [allow-none]
 
-_argv_: 인자 벡터의 포인터 또는 NULL 입니다. [배열 길이=argc] [입출력] [허용 안함]
+_argv_: 인자 벡터의 포인터 또는 NULL 입니다. [배열 길이=argc] [inout] [allow-none]
 
 _반환값_: 성공시 CLUTTER\_INIT\_SUCCESS, 실패시 음의 정수 값을 반환합니다.
 
@@ -41,9 +41,9 @@ _반환값_: 성공시 CLUTTER\_INIT\_SUCCESS, 실패시 음의 정수 값을 �
 
 이 함수는 clutter\_init()와 gtk\_init\_with\_args() 대신 호출해야 합니다.
 
-_argc_: 인자 카운트의 포인터 또는 NULL 입니다. [입출력] [허용 안함]
+_argc_: 인자 카운트의 포인터 또는 NULL 입니다. [inout] [allow-none]
 
-_argv_: 인자 벡터의 포인터 또는 NULL 입니다. [배열 길이=argc] [입출력] [허용 안함]
+_argv_: 인자 벡터의 포인터 또는 NULL 입니다. [배열 길이=argc] [inout] [allow-none]
 
 *parameter_string*: --help 출력의 첫번째 줄에 programname [OPTION...] 다음에 표시할 문자열입니다. [허용 안함]
 
@@ -51,7 +51,7 @@ _entries_: 프로그램의 옵션 내용이 있는 NULL로 끝나는 GOptionEntr
 
 *translation_domain*: entries에 있는 옵션에 대해 gettext()로 --help 출력을 해석하는데 사용할 해석 도메인입니다.
 
-_error_: 오류 위치를 반환하거나 NULL을 반환합니다.[허용 안함]
+_error_: 오류 위치를 반환하거나 NULL을 반환합니다.[allow-none]
 
 
 _반환값_: 성공시 CLUTTER\_INIT\_SUCCESS, 실패시 음의 정수 값을 반환합니다.
@@ -88,4 +88,4 @@ gtk_clutter_init(&argc, &argv);
 
 반환한 GOptionGroup을 가진 GOptionContext에 대해 g\_option\_context\_parse()를 호출하고 나면 클러터와 GTK-클러터의 초기화가 보장됩니다.
 
-_반환값_: ClutterGtk가 인식한 명령줄 인자에 대한 GOptionGroup.[완전히 전달함]
+_반환값_: ClutterGtk가 인식한 명령줄 인자에 대한 GOptionGroup.[transfer full]
