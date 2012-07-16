@@ -9,9 +9,9 @@
 #### 개요 ####
 
 <table border="0" cellpadding="2" cellspacing="2">
-	<tr><td> CluterInitError  </td><td> gtk_clutter_init             </td><td> (_int *argc,<br/> char ***argv_);                                                                                                                     </td></tr>
-	<tr><td> clutterInitError </td><td> gtk_clutter_init_with_args   </td><td> (_int *argc,<br/>char ***argv,<br/>const char *parameter_string,<br/>GOptionEntry *entries,<br/>const char *translation_domain,<br/>GError **error_); </td></tr>
-	<tr><td> GOptionGroup *   </td><td> gtk_clutter_get_option_group </td><td> (_void_);                                                                                                                                             </td></tr>
+	<tr><td> CluterInitError  </td><td> gtk_clutter_init             </td><td> (int *argc,<br/> char ***argv);                                                                                                                     </td></tr>
+	<tr><td> clutterInitError </td><td> gtk_clutter_init_with_args   </td><td> (int *argc,<br/>char ***argv,<br/>const char *parameter_string,<br/>GOptionEntry *entries,<br/>const char *translation_domain,<br/>GError **error); </td></tr>
+	<tr><td> GOptionGroup *   </td><td> gtk_clutter_get_option_group </td><td> (void);                                                                                                                                             </td></tr>
 </table>
 
 #### 설명 ####
@@ -23,7 +23,8 @@ GTK+ 프로그램에 클러터 장면을 적절하게 통합하려면 각 상태
 
 ##### gtk\_clutter\_init () #####
 
-`ClutterInitError gtk_clutter_init           (int *argc, char ***argv);`
+<pre>ClutterInitError gtk_clutter_init           (int *argc, char ***argv);
+</pre>
 
 이 함수는 clutter\_init()와 gtk\_init() 대신 호출해야 합니다.
 
@@ -36,8 +37,9 @@ _반환값_: 성공시 CLUTTER\_INIT\_SUCCESS, 실패시 음의 정수 값을 �
 
 ##### gtk\_clutter\_init\_with\_args () #####
 
-`ClutterInitError gtk_clutter_init_with_args (int *args, char ***argv, const char *parameter_string, GOptionEntry *entries,`
-`const char *translation_domain, GError **error);`
+<pre>ClutterInitError gtk_clutter_init_with_args (int *args, char ***argv, const char *parameter_string, GOptionEntry *entries,
+const char *translation_domain, GError **error);
+</pre>
 
 이 함수는 clutter\_init()와 gtk\_init\_with\_args() 대신 호출해야 합니다.
 
@@ -58,7 +60,9 @@ _반환값_: 성공시 CLUTTER\_INIT\_SUCCESS, 실패시 음의 정수 값을 �
 
 ##### gtk\_clutter\_get\_option\_group () #####
 
-`GOptionGroup *     gtk_clutter_get_option_group    (void);`
+<pre>
+GOptionGroup *     gtk_clutter_get_option_group    (void);
+</pre>
 
 클러터에서 인지한 명령줄 인자에 대해 GOptionGroup을 반환합니다. gtk\_clutter\_init() 이나 gtk\_clutter\_init\_with\_args()를 사용하는 대신에 여러분의 명령줄 인자를 해석하기 위해  g\_option\_context\_parse()를 사용한다면, g\_option\_context\_add\_group()으로 GOptionContext에 이 그룹을 추가해야 합니다.
 
