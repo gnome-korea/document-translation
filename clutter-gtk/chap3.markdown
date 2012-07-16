@@ -76,6 +76,7 @@ g_option_context_add_group (context, clutter_get_option_group_without_init());<b
 g_option_context_add_group (context, gtk_clutter_get_option_group());<br/>
 res = g_option_context_parse (context, &argc, &argv, NULL);
 </td></tr>
+</table>
 
 는 기능적으로 다음과 같습니다.
 
