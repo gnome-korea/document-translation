@@ -114,7 +114,7 @@ GtkWidget이 들어있는 ClutterActor입니다.
 
 ---
 
-##### struct GtkClutterActorclass #####
+##### struct GtkClutterActorClass #####
 
 <pre>struct GtkClutterActorClass{
 };
@@ -136,7 +136,7 @@ _반환값:_ 새로 생성한 [GtkClutterActor](#gtkclutteractor)
 
 ---
 
-##### gtk\_clutter\_actor\_new\_with\_contents (GtkWidget \*contents) #####
+##### gtk\_clutter\_actor\_new\_with\_contents () #####
 
 `ClutterActor *     gtk_clutter_actor_new_with_contents (GtkWidget *contents);`
 
