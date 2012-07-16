@@ -9,8 +9,8 @@
 #### 개요 ####
 
 <table border="0" cellpadding="2" cellspacing="2">
-	<tr><td> CluterInitError  </td><td> gtk_clutter_init             </td><td> (int *argc,<br/> char ***argv);                                                                                                                     </td></tr>
-	<tr><td> clutterInitError </td><td> gtk_clutter_init_with_args   </td><td> (int *argc,<br/>char ***argv,<br/>const char *parameter_string,<br/>GOptionEntry *entries,<br/>const char *translation_domain,<br/>GError **error); </td></tr>
+	<tr><td> ClutterInitError  </td><td> gtk_clutter_init             </td><td> (int *argc,<br/> char ***argv);                                                                                                                     </td></tr>
+	<tr><td> ClutterInitError </td><td> gtk_clutter_init_with_args   </td><td> (int *argc,<br/>char ***argv,<br/>const char *parameter_string,<br/>GOptionEntry *entries,<br/>const char *translation_domain,<br/>GError **error); </td></tr>
 	<tr><td> GOptionGroup *   </td><td> gtk_clutter_get_option_group </td><td> (void);                                                                                                                                             </td></tr>
 </table>
 
@@ -37,7 +37,8 @@ _반환값_: 성공시 CLUTTER\_INIT\_SUCCESS, 실패시 음의 정수 값을 �
 
 ##### gtk\_clutter\_init\_with\_args () #####
 
-<pre>ClutterInitError gtk_clutter_init_with_args (int *args, char ***argv, const char *parameter_string, GOptionEntry *entries,
+<pre>ClutterInitError gtk_clutter_init_with_args (int *args, char ***argv, 
+const char *parameter_string, GOptionEntry *entries, 
 const char *translation_domain, GError **error);
 </pre>
 
