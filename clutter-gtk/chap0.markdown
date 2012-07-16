@@ -47,8 +47,8 @@ II.&nbsp;&nbsp;[용어 해설](./chap6.markdown)
 </ul>
 
 <ul>
-	<li>모든 심볼의 색인</li>
-	<li>1.0에서 새로운 심볼의 색인</li>
-	<li>오래된 심볼의 색인</li>
+	<li><a href="chap7.markdown">모든 심볼의 색인</a></li>
+	<li><a href="chap8.markdown">1.0에서 새로운 심볼의 색인</a></li>
+	<li><a href="chap9.markdown">오래된 심볼의 색인</a></li>
 </ul>
-A.&nbsp;&nbsp;라이선스
+A.&nbsp;&nbsp;[라이선스](./chap10.markdown)
