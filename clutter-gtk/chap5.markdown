@@ -2,20 +2,19 @@
 
 ### 객체 계층도 ###
 
-<pre>
 GObject<br/>
 &nbsp;&nbsp;GInitiallyUnowned<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;ClutterActor<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GtkClutterActor](./chap2.markdown#gtkclutteractor)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ClutterTexture
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkClutterTexture
-&nbsp;&nbsp;&nbsp;&nbsp;GtkWidget
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkContainer
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GtkClutterEmbed](./chap2.markdown#gtkclutterembed)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkBin
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkWindow
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GtkClutterActor](./chap2.markdown#gtkclutteractor)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ClutterTexture<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkClutterTexture<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GtkWidget<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkContainer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GtkClutterEmbed](./chap2.markdown#gtkclutterembed)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkBin<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GtkWindow<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GtkClutterWindow](./chap2.markdown#gtkclutterwindow)
-</pre>
+
 
 ### 객체 색인 ###
 
