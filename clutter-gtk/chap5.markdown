@@ -21,7 +21,7 @@ GObject<br/>
 
 <table border="0">
 <tr><td width="33%"> ClutterActor                                        </td><td width="33%"> ClutterTexture    </td><td width="34%"> GInitiallyUnowned                                     </td></tr>
-<tr><td>             GObject                                             </td><td>             GtkBin            </td><td>             [GtkClutterActor](./chap2.markdown#gtkclutteractor)   </td></tr>
-<tr><td>             [GtkClutterEmbed](./chap2.markdown#gtkclutterembed) </td><td>             GtkClutterTexture </td><td>             [GtkClutterWindow](./chap2.markdown#gtkclutterwindow) </td></tr>
+<tr><td>             GObject                                             </td><td>             GtkBin            </td><td>             <a href="./chap2.markdown#gtkclutteractor">GtkClutterActor</a>   </td></tr>
+<tr><td>             <a href="./chap2.markdown#gtkclutterembed">GtkClutterEmbed</a> </td><td>             GtkClutterTexture </td><td>             <a href="./chap2.markdown#gtkclutterwindow">GtkClutterWindow</a></td></tr>
 <tr><td>             GtkContainer                                        </td><td>             GtkWidget         </td><td>             GtkWindow                                             </td></tr>
 </table>
