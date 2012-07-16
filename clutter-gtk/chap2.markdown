@@ -63,6 +63,7 @@ _반환값_: 새로 생성한 [GtkClutterEmbed](#gtkclutterembed)
 _embed_에서 ClutterStage를 가져옵니다. 반환한 스테이지는 클러터 장면에 액터를 추가하는데 사용할 수 있습니다.
 
 _embed_: [GtkClutterEmbed](#gtkclutterembed)
+
 _반환값_:  클러터 스테이지. 반환한 액터에 대해 할당을 해제하거나 참조를 끊을 수 없습니다. [전달 못 함]
 
 #### 추가 참조 ####
@@ -101,12 +102,15 @@ GtkClutterActor는 ClutterScriptable, ClutterAnimatable, AtkInplementorIface, Cl
 #### 세부 내용 ####
 
 ##### struct GtkClutterActor #####
+
 `struct GtkClutterActor;`
+
 GtkWidget이 들어있는 ClutterActor입니다.
 
 ---
 
 ##### struct GtkClutterActorclass #####
+
 `struct GtkClutterActorClass{
 };`
 
@@ -115,6 +119,7 @@ GtkWidget이 들어있는 ClutterActor입니다.
 ---
 
 ##### gtk\_clutter\_actor\_new () #####
+
 `ClutterActor *     gtk_clutter_actor_new               (void);`
 
 새 [GtkClutterActor](#gtkclutteractor)를 만듭니다.
@@ -132,13 +137,18 @@ _반환값:_ 새로 생성한 [GtkClutterActor](#gtkclutteractor)
 새 [GtkClutterActor](#gtkclutteractor) 위젯을 만듭니다. 이 위젯은 클러터 장면에 Gtk 위젯을 넣을때 사용할 수 있습니다.
 
 이 함수는 논리적으로 다음과 같습니다.
-`ClutterActor *actor = gtk_clutter_actor_new();
+<table border="0">
+<tr><td>
+ClutterActor *actor = gtk_clutter_actor_new();<br/>
 GtkWidget *bin = gtk_clutter_actor_get_widget (GTK_CLUTTER_ACTOR (actor));
+</td></tr>
+</table>
 
 gtk_container_add (GTK_CONTAINER(bin), contents);
 `
 
 _contents_: ClutterActor로 감쌀 GtkWidget
+
 _반환값_: 새로 만든 [GtkClutterACtor](#gtkclutteractor)
 
 ---
@@ -150,11 +160,16 @@ _반환값_: 새로 만든 [GtkClutterACtor](#gtkclutteractor)
 _actor_의 내용을 유지하기 위해 사용하는 GtkBin의 자식 요소를 전달합니다.
 
 이 편의함수는 논리적으로 다음과 같습니다.
-`GtkWidget *bin;
-bin = gtk_clutter_actor_get_widget (GTK_CLUTTER_ACTOR (actor));
-return gtk_bin_get_child (GTK_BIN (bin));`
+<table border="0">
+<tr><td>
+GtkWidget *bin;<br/>
+bin = gtk_clutter_actor_get_widget (GTK_CLUTTER_ACTOR (actor));<br/>
+return gtk_bin_get_child (GTK_BIN (bin));
+</td></tr>
+</table>
 
 _actor_: [GtkClutterActor](#gtkclutteractor)
+
 _반환값_: GtkWidget. 내용이 없을 경우 NULL반환 [전달 못 함]
 
 ---
@@ -166,6 +181,7 @@ _반환값_: GtkWidget. 내용이 없을 경우 NULL반환 [전달 못 함]
 "contents" 위젯을 유지하기 위해 사용하는 GtkBin을 전달합니다.
 
 _actor_: [GtkClutterActor](#gtkclutteractor)
+
 _반환값_: GtkBin [전달 못 함]
 
 #### 속성 세부 내용 ####
@@ -248,4 +264,5 @@ _반환값_: 새로 만든 [GtkClutterWindow](#gtkclutterwindow)
 다른 액터를 ClutterStage에 추가하고 싶다면 이 함수를 사용하십시오.
 
 _window_: [GtkClutterWindow](#gtkclutterwindow)
+
 _반환값_: 창의 클러터 스테이지. [전달 못 함]
