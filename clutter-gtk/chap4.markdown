@@ -18,19 +18,19 @@ gtk_clutter_embed_new, gtk_clutter_embed_new ()
 
 gtk_clutter_get_option_group, gtk_clutter_get_option_group ()
 
-GtkClutterActor, struct GtkClutterActor
+GtkClutterActor, [struct GtkClutterActor](./chap2.markdown#struct-gtkclutteractor)
 
 GtkClutterActor:contents, The "contents" property
 
-GtkClutterActorClass, struct GtkClutterActorClass
+GtkClutterActorClass, [struct GtkClutterActorClass](./chap2.markdown#struct-gtkclutteractorclass)
 
-GtkClutterEmbed, struct GtkClutterEmbed
+GtkClutterEmbed, [struct GtkClutterEmbed](./chap2.markdown#struct-gtkclutterembed)
 
-GtkClutterEmbedClass, struct GtkClutterEmbedClass
+GtkClutterEmbedClass, [struct GtkClutterEmbedClass](./chap2.markdown#struct-gtkclutterembedclass)
 
-GtkClutterWindow, struct GtkClutterWindow
+GtkClutterWindow, [struct GtkClutterWindow](./chap2.markdown#struct-gtkclutterwindow)
 
-GtkClutterWindowClass, [struct GtkClutterWindowClass](./chap2.markdown#struct%20gtkclutterwindowclass)
+GtkClutterWindowClass, [struct GtkClutterWindowClass](./chap2.markdown#struct-gtkclutterwindowclass)
 
 ### I ###
 
