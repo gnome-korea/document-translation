@@ -45,7 +45,7 @@ _argc_: 인자 카운트의 포인터 또는 NULL 입니다. [inout] [allow-none
 
 _argv_: 인자 벡터의 포인터 또는 NULL 입니다. [배열 길이=argc] [inout] [allow-none]
 
-*parameter_string*: --help 출력의 첫번째 줄에 programname [OPTION...] 다음에 표시할 문자열입니다. [허용 안함]
+*parameter_string*: --help 출력의 첫번째 줄에 programname [OPTION...] 다음에 표시할 문자열입니다. [allow-none]
 
 _entries_: 프로그램의 옵션 내용이 있는 NULL로 끝나는 GOptionEntry의 배열입니다.
 

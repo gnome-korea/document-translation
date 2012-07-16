@@ -4,7 +4,7 @@ Version 1.0.4
 
 Copyright &copy; 2006, 2007, 2008, 2009 Intel Corporation
 
-불변의 섹션, 전면 및 후면 표지의 내용을 제외하고 자유 소프트웨어 재단이 공표한 _GNU 자유 문서 라이선스_ Version 1.1 이상 버전의 조항에 따라 이 문서를 복사, 배포, 수정할 수 있습니다. [웹 사이트](http://www.fsf.org)를 방문하시거나 다음 주소로 요청하여 자유 소프트웨어 재단에서 GNU 자유 문서 라이선스의 사본을 받을 수 있습니다.
+불변의 섹션, 전면 및 후면 표지의 내용을 제외하고 자유 소프트웨어 재단이 공표한 _GNU 자유 문서 사용허가서_ Version 1.1 이상 버전의 조항에 따라 이 문서를 복사, 배포, 수정할 수 있습니다. [웹 사이트](http://www.fsf.org)를 방문하시거나 다음 주소로 요청하여 자유 소프트웨어 재단에서 GNU 자유 문서 사용허가서의 사본을 받으십시오.
 
 The Free Software Foundation, Inc,.<br/>
 59 Temple Place - Suite 330,<br/>
@@ -14,8 +14,8 @@ USA
 ---
 
 <ul>
-	<li>[클러터-gtk 개요](./chap1.markdown)</li>
-	<li>[클러터-gtk 위젯](./chap2.markdown)</li>
+	<li><a href="chap1.markdown">클러터-gtk 개요</a></li>
+	<li><a href="chap2.markdown">클러터-gtk 위젯</a></li>
 </ul>
 <ul>
 	<ul>
@@ -25,7 +25,7 @@ USA
 	</ul>
 </ul>
 <ul>
-	<li>[기타](./chap3.markdown)</li>
+	<li><a href="chap3.markdown">기타</a></li>
 </ul>
 <ul>
 	<ul>
@@ -33,7 +33,7 @@ USA
 	</ul>
 </ul>
 <ul>
-	<li>[색인](./chap4.markdown)</li>
+	<li><a href="chap4.markdown">색인</a></li>
 </ul>
 
 I.&nbsp;&nbsp;[클러터-GTK 액터와 객체](./chap5.markdown)
