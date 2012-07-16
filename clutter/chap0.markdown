@@ -31,33 +31,48 @@ USA
 		<li>제한자</li>
 		<li>효과</li>
 	</ul>
+</ol>
+<ol type="I" start="5">
 	<li>클러터 애니메이션 프레임워크</li>
 	<ul>
 		<li>상위 클래스</li>
 		<li>동작</li>
 		<li>고급 API</li>
 	</ul>
+</ol>
+<ol type="I" start="6">
 	<li>클러터 도구</li>
 	<ul>
 		<li>범용 API</li>
 		<li>사용자 인터페이스 정의</li>
 		<li>제너릭 리스트 모델</li>
 	</ul>
+</ol>
+<ol type="I" start="7">
 	<li>클러터 백엔드</li>
 	<li>추가 문서</li>
 	<ul>
+		<li>새 액터 구현</li>
+		<li>클러터로 애니메이션 만들기</li>
+		<li>여러분의 동작 만들기</li>
 	</ul>
+</ol>
+<ol type="I" start="9">
 	<li>이전 버전의 클러터에서 가져오기</li>
 	<ul>
 		<li>ClutterEffect에서 가져오기</li>
 		<li>ClutterPath에서 가져오기</li>
 		<li>ClutterBehaviour에서 가져오기</li>
 	</ul>
+</ol>
+<ol type="I" start="10">
 	<li>클러터 액터와 객체</li>
 	<ul>
 		<li>객체 계층도</li>
 		<li>객체 색인</li>
 	</ul>
+</ol>
+<ol type="I" start="11">
 	<li>용어 해설</li>
 	<ul>
 		<li>용어 해설</li>
