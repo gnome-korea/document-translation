@@ -36,7 +36,8 @@ GtkClutterEmbed는 AtkImplementorIface와 GtkBuildable을 구현했습니다.
 #### 세부 내용 ####
 
 ##### struct GtkclutterEmbed #####
- struct GtkClutterEmbed;
+<pre>struct GtkClutterEmbed;
+</pre>
 
 기본 클러터 스테이지에 있는 GtkWidget입니다.
 GtkClutterEmbed 구조체는 private 데이터만 들어있으며 제공한 API를 사용해서 접근해야 합니다.
@@ -54,14 +55,16 @@ GtkClutterEmbedClass는 private 데이터만 들어있습니다.
 ---
 
 ##### gtk\_clutter\_embed\_new () #####
-`GtkWidget *     gtk_clutter_embed_new          (void);`
+<pre>GtkWidget *     gtk_clutter_embed_new          (void);
+</pre>
 
 새 [GtkClutterEmbed](#gtkclutterembed) 위젯을 만듭니다. 이 위젯은 GTK+ 프로그램에 있는 클러터 API를 사용해서 장면을 빌드하는데 사용할 수 있습니다.
 
 _반환값_: 새로 생성한 [GtkClutterEmbed](#gtkclutterembed)
 
 ##### gtk\_clutter\_embed\_get\_stage () #####
-`ClutterActor *  gtk_clutter_embed_get_stage    (GtkClutterEmbed *embed)`
+<pre>ClutterActor *  gtk_clutter_embed_get_stage    (GtkClutterEmbed *embed);
+</pre>
 
 _embed_에서 ClutterStage를 가져옵니다. 반환한 스테이지는 클러터 장면에 액터를 추가하는데 사용할 수 있습니다.
 
@@ -97,7 +100,8 @@ GObject
 GtkClutterActor는 ClutterScriptable, ClutterAnimatable, AtkInplementorIface, ClutterContainer를 구현했습니다.
 
 #### 속성 ####
-` "contents"        GtkWidget*          : 읽기 / 쓰기 / 생성`
+<pre> "contents"        GtkWidget*          : 읽기 / 쓰기 / 생성
+</pre>
 
 #### 설명 ####
 [GtkClutterActor](#gtkclutteractor)는 클러터 장면그래픽에 어떤 GtkWidget이든 넣을 수도 있게 해주는 ClutterContainer입니다.
@@ -108,7 +112,8 @@ GtkClutterActor는 ClutterScriptable, ClutterAnimatable, AtkInplementorIface, Cl
 
 ##### struct GtkClutterActor #####
 
-`struct GtkClutterActor;`
+<pre>struct GtkClutterActor;
+</pre>
 
 GtkWidget이 들어있는 ClutterActor입니다.
 
@@ -126,7 +131,8 @@ GtkWidget이 들어있는 ClutterActor입니다.
 
 ##### gtk\_clutter\_actor\_new () #####
 
-`ClutterActor *     gtk_clutter_actor_new               (void);`
+<pre>ClutterActor *     gtk_clutter_actor_new               (void);
+</pre>
 
 새 [GtkClutterActor](#gtkclutteractor)를 만듭니다.
 
@@ -138,7 +144,8 @@ _반환값:_ 새로 생성한 [GtkClutterActor](#gtkclutteractor)
 
 ##### gtk\_clutter\_actor\_new\_with\_contents () #####
 
-`ClutterActor *     gtk_clutter_actor_new_with_contents (GtkWidget *contents);`
+<pre>ClutterActor *     gtk_clutter_actor_new_with_contents (GtkWidget *contents);
+</pre>
 
 새 [GtkClutterActor](#gtkclutteractor) 위젯을 만듭니다. 이 위젯은 클러터 장면에 Gtk 위젯을 넣을때 사용할 수 있습니다.
 
@@ -159,7 +166,8 @@ _반환값_: 새로 만든 [GtkClutterACtor](#gtkclutteractor)
 
 ##### gtk\_clutter\_actor\_get\_contents () #####
 
-`GtkWidget *        get_clutter_actor_get_contents      (GtkClutterActor *actor);`
+<pre>GtkWidget *        get_clutter_actor_get_contents      (GtkClutterActor *actor);
+</pre>
 
 _actor_의 내용을 유지하기 위해 사용하는 GtkBin의 자식 요소를 전달합니다.
 
@@ -180,7 +188,8 @@ _반환값_: GtkWidget. 내용이 없을 경우 NULL반환 [transfer none]
 
 ##### gtk\_clutter\_actor\_get\_widget () #####
 
-`GtkWidget *        get_clutter_actor_get_widget        (GtkClutterActor *actor);`
+<pre>GtkWidget *        get_clutter_actor_get_widget        (GtkClutterActor *actor);
+</pre>
 
 "contents" 위젯을 유지하기 위해 사용하는 GtkBin을 전달합니다.
 
@@ -191,7 +200,8 @@ _반환값_: GtkBin [transfer none]
 #### 속성 세부 내용 ####
 ##### "contents" 속성 #####
 
-` "contents"        GtkWidget*          : 읽기 / 쓰기 / 생성`
+<pre> "contents"        GtkWidget*          : 읽기 / 쓰기 / 생성
+</pre>
 
 [GtkClutterActor](#gtkclutteractor)에 넣을 GtkWidget 입니다
 
@@ -231,7 +241,8 @@ GtkClutterWindow는 AtkInplementorIface와 GtkBuildable을 구현했습니다.
 
 ##### struct GtkClutterWindow #####
 
-`struct GtkClutterWindow;`
+<pre>struct GtkClutterWindow;
+</pre>
 
 ClutterStage가 들어있는 GtkWindow입니다.
 GtkClutterWindow 구조체는 private 데이터만 들어있으며 제공하는 API를 통해서 접근해야 합니다.
@@ -252,8 +263,8 @@ GtkClutterWindowClass 구조체는 private 데이터만 들어있습니다.
 
 ##### gtk\_clutter\_window\_new () #####
 
- 
-`GtkWidget *      gtk_clutter_window_new        (void);`
+<pre>GtkWidget *      gtk_clutter_window_new        (void);
+</pre>
 
 새 [GtkClutterWindow](#gtkclutterwindow) 위젯을 만듭니다.
 
@@ -264,7 +275,7 @@ _반환값_: 새로 만든 [GtkClutterWindow](#gtkclutterwindow)
 ---
 
 ##### gtk\_clutter\_window\_get\_stage () #####
-`ClutterActor *   gtk_clutter_window_get_stage  (GtkClutterWindow *window);`
+<pre>ClutterActor *   gtk_clutter_window_get_stage  (GtkClutterWindow *window);</pre>
 
 지정한 창이 들어있는 ClutterStage를 전달합니다.
 
