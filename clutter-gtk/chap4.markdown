@@ -17,13 +17,20 @@ gtk_clutter_embed_new, gtk_clutter_embed_new ()
 ### G ###
 
 gtk_clutter_get_option_group, gtk_clutter_get_option_group ()
+
 GtkClutterActor, struct GtkClutterActor
+
 GtkClutterActor:contents, The "contents" property
+
 GtkClutterActorClass, struct GtkClutterActorClass
+
 GtkClutterEmbed, struct GtkClutterEmbed
+
 GtkClutterEmbedClass, struct GtkClutterEmbedClass
+
 GtkClutterWindow, struct GtkClutterWindow
-GtkClutterWindowClass, struct GtkClutterWindowClass
+
+GtkClutterWindowClass, [struct GtkClutterWindowClass](./chap2.markdown#gtkclutterwindowclass)
 
 ### I ###
 
