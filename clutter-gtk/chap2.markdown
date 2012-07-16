@@ -45,7 +45,8 @@ GtkClutterEmbed 구조체는 private 데이터만 들어있으며 제공한 API�
 
 ##### struct GtkClutterEmbedClass #####
 <pre>struct GtkClutterEmbedClass{
-};</pre>
+};
+</pre>
 
 [GtkClutterEmbed](#gtkclutterembed)의 상위클래스입니다.
 GtkClutterEmbedClass는 private 데이터만 들어있습니다.
@@ -116,7 +117,8 @@ GtkWidget이 들어있는 ClutterActor입니다.
 ##### struct GtkClutterActorclass #####
 
 <pre>struct GtkClutterActorClass{
-};</pre>
+};
+</pre>
 
 [GtkClutterActor](#gtkclutteractor)의 상위클래스입니다.
 
@@ -239,7 +241,8 @@ GtkClutterWindow 구조체는 private 데이터만 들어있으며 제공하는 
 ##### struct GtkClutterWindowClass #####
 
 <pre>struct GtkClutterWindowClass{
-};</pre>
+};
+</pre>
 
 [GtkClutterWindow](#gtkclutterwindow)의 상위클래스 입니다.
 
