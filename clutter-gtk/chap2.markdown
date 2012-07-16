@@ -12,8 +12,8 @@ GtkClutterEmbed - 클러터 장면을 넣는 위젯입니다
 <table border="0" cellspacing="2" cellpadding"2">
 	<tr><td> struct     </td><td> GtkClutterEmbed;      </td><td> &nbsp;    </td></tr>
 	<tr><td> struct     </td><td> GtkClutterEmbedClass; </td><td> &nbsp;    </td></tr>
-	<tr><td> GtkWidget* </td><td> gtk_clutter_embed_new </td><td> (_void_); </td></tr>
-	<tr><td>ClutterActor *</td><td> gtk_clutter_embed_get_stage</td><td>(_GtkClutterEmbed *embed_);
+	<tr><td> GtkWidget* </td><td> gtk_clutter_embed_new </td><td> (void); </td></tr>
+	<tr><td>ClutterActor *</td><td> gtk_clutter_embed_get_stage</td><td>(GtkClutterEmbed *embed);
 </table>
 
 #### 객체 계층도 ####
@@ -63,10 +63,11 @@ GtkClutterEmbedClass는 private 데이터만 들어있습니다.
 _반환값_: 새로 생성한 [GtkClutterEmbed](#gtkclutterembed)
 
 ##### gtk\_clutter\_embed\_get\_stage () #####
+
 <pre>ClutterActor *  gtk_clutter_embed_get_stage    (GtkClutterEmbed *embed);
 </pre>
 
-_embed_에서 ClutterStage를 가져옵니다. 반환한 스테이지는 클러터 장면에 액터를 추가하는데 사용할 수 있습니다.
+embed에서 ClutterStage를 가져옵니다. 반환한 스테이지는 클러터 장면에 액터를 추가하는데 사용할 수 있습니다.
 
 _embed_: [GtkClutterEmbed](#gtkclutterembed)
 
@@ -82,10 +83,10 @@ GtkClutterActor - 클러터 스테이지에 위젯을 넣는 액터입니다
 <table border="0" cellspacing="2" cellpadding="2">
 	<tr><td> struct         </td><td> GtkClutterActor;                    </td><td> &nbsp;                      </td></tr>
 	<tr><td> struct         </td><td> GtkClutterActorClass;               </td><td> &nbsp;                      </td></tr>
-	<tr><td> ClutterActor * </td><td> gtk_clutter_actor_new               </td><td> (_void_);                   </td></tr>
-	<tr><td> ClutterActor * </td><td> gtk_clutter_actor_new_with_contents </td><td> (_GtkWidget *contents_);    </td></tr>
-	<tr><td> GtkWidget *    </td><td> gtk_clutter_actor_get_contents      </td><td> (_GtkClutterActor *actor_); </td></tr>
-	<tr><td> GtkWidget *    </td><td> gtk_clutter_actor_get_widget        </td><td> (_GtkClutterActor *actor_); </td></tr>
+	<tr><td> ClutterActor * </td><td> gtk_clutter_actor_new               </td><td> (void);                   </td></tr>
+	<tr><td> ClutterActor * </td><td> gtk_clutter_actor_new_with_contents </td><td> (GtkWidget *contents);    </td></tr>
+	<tr><td> GtkWidget *    </td><td> gtk_clutter_actor_get_contents      </td><td> (GtkClutterActor *actor); </td></tr>
+	<tr><td> GtkWidget *    </td><td> gtk_clutter_actor_get_widget        </td><td> (GtkClutterActor *actor); </td></tr>
 </table>
 
 #### 객체 계층도 ####
@@ -169,7 +170,7 @@ _반환값_: 새로 만든 [GtkClutterACtor](#gtkclutteractor)
 <pre>GtkWidget *        get_clutter_actor_get_contents      (GtkClutterActor *actor);
 </pre>
 
-_actor_의 내용을 유지하기 위해 사용하는 GtkBin의 자식 요소를 전달합니다.
+actor의 내용을 유지하기 위해 사용하는 GtkBin의 자식 요소를 전달합니다.
 
 이 편의함수는 논리적으로 다음과 같습니다.
 <table border="0">
@@ -212,8 +213,8 @@ GtkClutterWindow - 클러터 스테이지에 내용을 올려놓는 GtkWindow �
 <table border="0" cellpadding="2" cellspacing="2">
 	<tr><td> struct         </td><td> GtkClutterWindow;            </td><td> &nbsp;                        </td></tr>
 	<tr><td> struct         </td><td> GtkClutterWindowClass;       </td><td> &nbsp;                        </td></tr>
-	<tr><td> GtkWidget *    </td><td> gtk_clutter_window_new       </td><td> (_void_);                     </td></tr>
-	<tr><td> ClutterActor * </td><td> gtk_clutter_window_get_stage </td><td> (_GtkClutterWindow *window_); </td></tr>
+	<tr><td> GtkWidget *    </td><td> gtk_clutter_window_new       </td><td> (void);                     </td></tr>
+	<tr><td> ClutterActor * </td><td> gtk_clutter_window_get_stage </td><td> (GtkClutterWindow *window); </td></tr>
 </table>
 
 #### 객체 계층도 ####
