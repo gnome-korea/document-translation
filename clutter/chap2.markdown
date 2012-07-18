@@ -38,7 +38,7 @@ configure 스크립트로 전달할 수많은 추가 인자를 사용하여 빌�
 	<tr><td> --with-imagebackend=[gdk-pixbuf/quartz/internal]     </td><td> 그림 불러오기 백엔드를 선택합니다. 리눅스와 윈도우즈에서의 기본값은 gdk-pixbuf이고, OS X에서의 기본값은 quartz입니다. 내부 그림 불러오기 백엔드는 새 플랫폼으로 이식하거나 테스트 목적으로만 사용하며 안정성이나 기능성 측면에 대하여는 보장하지 아니합니다.                                                                                                                     </td></tr>
 	<tr><td> --with-gles=[1.1/2.0]                                </td><td> COGL을 지원하기 위한 GLES 버전을 선택합니다. 기본값은 1.1입니다.                                                                                                                                                                                                                                  </td></tr>
 	<tr><td>--with-json=[internal/check]</td><td>ClutterScript UI 정의 파일을 해석하기 위해 JSON-Glib의 내부 복제물을 사용할지, 시스템에 설치한 라이브러리를 확인할 것인지를 선택합니다. 기본값은 internal입니다.
-	<tr><td>--enable-xinput=[no/yes]</td>XInput 1 지원을 활성화할 지에 대한 여부입니다. 기본값은 no 입니다.
+	<tr><td>--enable-xinput=[no/yes]</td><td>XInput 1 지원을 활성화할 지에 대한 여부입니다. 기본값은 no 입니다.</td></tr>
 	<tr><td>--enable-introspection=[no/auto/yes]</td><td>GObject Introspection 데이터를 빌드 중에 생성할 것인지에 대한 여부입니다. 기본값은 auto입니다.</td></tr>
 </table>
 
