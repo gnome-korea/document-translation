@@ -18,16 +18,16 @@ USA
 <table border=0 width="100%">
 <tr><td>
 <ol type="I">
-	<li>개요</li>
-	<li>클러터 빌드하기</li>
-	<li>클러터 실행하기</li>
+	<li><a href="./chap1.markdown">개요</a></li>
+	<li><a href="./chap2.markdown">클러터 빌드하기</a></li>
+	<li><a href="./chap3.markdown">클러터 실행하기</a></li>
 	<li>클러터 핵심부 참고서</li>
 	<ul>
 		<li>추상 클래스와 인터페이스</li>
-		<li>상위 액터</li>
+		<li>기본 액터</li>
 		<li>컨테이너 액터</li>
 		<li>배치 관리자</li>
-		<li>액션</li>
+		<li>동작</li>
 		<li>제한자</li>
 		<li>효과</li>
 	</ul>
